@@ -1,3 +1,4 @@
+
 const routes = [
   {
     path: '/',
@@ -5,6 +6,12 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') }
     ]
+  },
+
+  {
+    path: "/login",
+    component: () => import("pages/LoginPages.vue"),
+    meta: { requiresGuest: true },
   },
 
   // Always leave this as last one,

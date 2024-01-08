@@ -1,6 +1,6 @@
-# jamkrindo-app (jamkrindo-app)
+# app-jamkrindo (app-jamkrindo)
 
-Jamkrindo Web Apps
+Jaguars App
 
 ## Install the dependencies
 ```bash
@@ -13,15 +13,6 @@ npm install
 ```bash
 quasar dev
 ```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
 
 
 ### Build the app for production
