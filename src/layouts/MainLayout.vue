@@ -14,9 +14,12 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer class="bg-grey-12 inset-shadow-down  shadow-box doc-inset-shadow"  :breakpoint="500" show-if-above v-model="leftDrawerOpen" side="left" bordered>
+    <q-drawer class="bg-grey-12 inset-shadow-down  shadow-box doc-inset-shadow"  :width="300"  :breakpoint="500" show-if-above v-model="leftDrawerOpen" side="left" bordered>
       <!-- drawer content -->
-      <img src="../assets/quasar-logo-vertical.svg">
+      <div class="q-mt-sm q-ml-sm">
+        <img class="" src="../assets/logo.svg">
+      </div>
+
     </q-drawer>
 
     <q-page-container class="bg-grey-4">
