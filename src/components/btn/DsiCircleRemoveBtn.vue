@@ -1,0 +1,10 @@
+<template>
+  <q-btn
+    outline
+    class="q-mt-sm"
+    round
+    color="negative"
+    size="sm"
+    icon="remove"
+  />
+</template>
